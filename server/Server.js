@@ -30,7 +30,7 @@ const employee = require("./Models/employeeModel");
 
 mongoose
   .connect(
-    "mongodb+srv://nisargpatil03:RJxKVOXRL0KzYv4y@gcdb0.7tml8w2.mongodb.net/",
+    "mongodb+srv://deekshitachandrapendyala:ZjBU9g25YxOEqpEE@cluster0.yl9olcn.mongodb.net/",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
