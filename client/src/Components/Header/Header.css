@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@500&display=swap");
+
+/* Style for the entire AppBar */
+#header {
+  background-color: #b6bdffae;
+}
+
+#companyName{
+  color: #00052fae;
+  font-family: "Roboto", serif;
+  font-size: 40px;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+@media (max-width: 615px) {
+    #companyName {
+        font-size: 4vw;
+
+    }
+  }
+  .header {
+    grid-area: header;
+    padding-bottom: 5px;
+  }

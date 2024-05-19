@@ -1,0 +1,93 @@
+#sidebar {
+    grid-area: sidebar;
+    /* font-size: 40px; */
+    /* padding-top: 25px; */
+    height: 100%;
+    width: 17vw;
+    background-color: #192436d3;
+    /* overflow-y: auto; */
+    /* transition: all 0.5s; */
+    /* transition: transform 0.2s ease; */
+    /* -webkit-transition: all 0.2s; */
+    /* z-index: 1000;  */
+    /* box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); */
+    
+  }
+  
+  .sidebar-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2px 30px 14px 20px; */
+    background: #192436;
+    border-top: 1px solid #000000d7;
+    border-bottom: 1px solid #000000d7;
+    margin-bottom: 4px;
+    font-weight: 800;
+    /* margin-left: 12px; */
+    color: #d9d9ef;
+    font-size: 2.8em;
+    letter-spacing: 1.5px;
+  }
+  
+  .sidebar-title > span {
+    display: none;
+  }
+  
+  .sidebar-brand {
+    /* margin-top: 5px; */
+    font-size: 30px;
+    font-weight: 700;
+  
+  }
+  
+  .sidebar-list {
+    padding: 0;
+    list-style-type: none;
+    margin:0;
+  }
+  
+  .sidebar-list-item {
+    padding: 20px 20px 20px 20px;
+    font-size: 22px;
+    transition: all 0.2s ease;
+    letter-spacing: 1px;
+  
+  }
+  
+  .sidebar-list-item:hover {
+    background-color: #0094de;
+    cursor: pointer;
+    transform: scale(1.05);
+    background: #0094de; /* Slight background highlight */
+  }
+  
+  
+  .sidebar-list-item > a {
+    text-decoration: none;
+    color: #d9d9ef;
+  }
+  
+  
+  .sidebar-list-item a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: color 0.3s ease;
+  }
+  
+  .sidebar-list-item a:hover {
+    color: #a2d5f2; /* Change the color slightly when hovering over the link */
+  }
+  
+  
+  .sidebar-responsive {
+    display: inline !important;
+    position: absolute;
+    /*
+      we want the z-index of the sidebar higher so that
+      the charts are not showing over the sidebar 
+      on small screens
+    */
+    z-index: 12 !important;
+  }
